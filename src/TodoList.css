@@ -1,0 +1,148 @@
+.todo-container {
+  max-width: 480px;
+  margin: 30px auto;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.todo-title {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.todo-input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  flex-grow: 1;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.todo-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.todo-add-btn {
+  padding: 10px 18px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.todo-add-btn:hover {
+  background-color: #0056b3;
+}
+
+.todo-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.todo-filter {
+  padding: 6px 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.todo-sort-btn {
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: #17a2b8;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.todo-sort-btn:hover {
+  background-color: #117a8b;
+}
+
+.todo-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo-item:last-child {
+  border-bottom: none;
+}
+
+.todo-text {
+  flex-grow: 1;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.todo-item.completed .todo-text {
+  text-decoration: line-through;
+  color: #999;
+  opacity: 0.7;
+}
+
+.todo-status {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.active-label {
+  background-color: #28a745;
+  color: white;
+}
+
+.completed-label {
+  background-color: #6c757d;
+  color: white;
+}
+
+.todo-delete-btn {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.todo-delete-btn:hover {
+  background-color: #a71d2a;
+}
+
+.todo-empty {
+  text-align: center;
+  color: #666;
+  padding: 15px 0;
+  font-style: italic;
+}
