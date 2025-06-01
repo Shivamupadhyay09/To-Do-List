@@ -14,6 +14,18 @@ A simple and easy-to-use To-Do List web app to manage your daily tasks.
 - HTML
 - CSS
 - JavaScript
+  
+## Step for Testing To-do list app
+Open the app in your browser.
+
+Type a task in the input box and click the Add button.
+
+Click the checkbox to mark the task as completed.
+
+Click the delete icon to remove a task.
+
+Refresh the page — your tasks will still be there saved in your browser.
+
 
 ## 📦 How to Run This Project
 
